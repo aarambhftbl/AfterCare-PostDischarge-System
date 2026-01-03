@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AfterCare Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background: linear-gradient(135deg, #e0f7fa, #80deea); height: 100vh; display: flex; align-items: center; justify-content: center; }
+        .login-card { background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+        .brand-text { color: #006064; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="login-card text-center">
+        <h2 class="brand-text mb-4">AfterCare 🏥</h2>
+        <p class="text-muted">Post-Discharge Management System</p>
+        <form action="/dashboard">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Patient ID (Try: 123)" required>
+            </div>
+            <div class="mb-3">
+                <input type="password" class="form-control" placeholder="Password" required>
+            </div>
+            <button type="submit" class="btn btn-info w-100 text-white fw-bold">Login Securely</button>
+        </form>
+    </div>
+</body>
+</html>
